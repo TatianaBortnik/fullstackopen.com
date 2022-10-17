@@ -1,0 +1,17 @@
+title 0.6 Create new note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+server adds new note 
+that sent from browser
+end note
+
+server-->browser: status 201, JSON
+
+
+note over browser:
+browser shows list of notes
+with added one
+end note
+
