@@ -1,0 +1,17 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  border-color: rgb(220, 220, 220);
+}
+
+p {
+  margin: 2px;
+}
+
+div {
+  margin: 10px;
+}
